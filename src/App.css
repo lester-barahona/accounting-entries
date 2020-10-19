@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.active{
+    transition: all .2s;
+    background-color: rgb(224, 221, 221,.4);
+    border-radius: 15px;
+}
+.input-container{
+    background-color:#ffffff23;
+    padding: 10px;
+    border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.asientos-list-container{
+    /* padding-top: 100px; */
+    max-height: 78vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.asientos-list-container::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.asientos-list-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+ 
+.asientos-list-container::-webkit-scrollbar-thumb {
+  background-color: rgb(114, 173, 250);
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.table-small{
+    font-size: small;
 }
 
-.App-link {
-  color: #61dafb;
+.option-cap{
+    text-transform: capitalize;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.may-title{
+    text-transform: uppercase;
+}
+
+.may-card{
+    width: 300px;
+}
+
+.text-info-row{
+    margin-top: 5px;
+    font-size: medium;
 }
