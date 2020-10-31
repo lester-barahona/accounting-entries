@@ -8,7 +8,7 @@ const General = () => {
 
     return (
         <div className="container mt-4">
-              <h2 className="text-center border-bottom border-info pb-3">Estado de Resultados</h2>
+              <h2 className="text-center border-bottom border-info pb-3">Balance General</h2>
 
               <div className="container">
               <table className="table table-hover mt-4 table-active text-center">
